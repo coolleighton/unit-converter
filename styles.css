@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+} 
+
+body {
+    background-color: #dbdbdb;
+}
+
+.header {
+    background-color: white;
+    display: flex;
+}
+
+.head-left {
+    background-color: #6943ff;
+    padding-left: 10%;
+}
+
+.head-left h1 {
+    color: white;
+}
+
+
+.header h1 {
+    padding: 15px 10px;
+    font-weight: 900;
+}
+
+.header span {
+    color: #6943ff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #6943ff;
+    width: 700px;
+    margin: 45px auto;
+    border-radius: 20px;
+}
+
+.top-container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+
+.top-container h1 {
+    padding: 15px;
+    font-size: 30px;
+}
+
+.top-container input {
+    background-color: #6943ff;
+    border: 2px solid #aa96fc;
+    color: white;
+    border-radius: 5px;
+    font-size: 60px;
+    font-weight: 700;
+    width: 125px;
+    text-align: center;
+    margin: 15px auto;
+    outline: none;
+}
+
+.top-container button{
+    background-color: white;
+    border: 1px solid white;
+    width: 125px;
+    margin: 15px auto;
+    padding: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.top-container button:hover,
+.top-container input:hover{
+    scale: 1.05;
+    transition: 0.3s;
+}
+
+.bot-container {
+    background-color: #f4f4f4;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.card {
+    background-color: white;
+    width: 80%;
+    padding: 20px;
+    margin: 40px auto;
+}
+
+.card h3 {
+    border-radius: 5px;
+    color: #5a537b;
+    font-weight: 500;
+}
+
+.card p {
+    padding-top: 15px;
+}
+
+.copy {
+    position: absolute;
+    font-size: 15px;
+    right: 0;
+    bottom: 0;
+    margin: 15px;
+
+    color: rgb(61, 61, 61);
+    text-decoration: none;
+}
+
+
+
+
+
+
